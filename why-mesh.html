@@ -56,10 +56,68 @@
     </header><!--//header-->
     
     <!-- ******Why Mesh****** -->
-    <section id="why-mesh" class="features section offset-header">
-        <div class="container text-center">
-            <h2 class="title">Why Mesh?</h2>
-            <h4 style="color:#FFFFFF;">Why Mesh mesh?</h4>
+    <section id="why-mesh" class="about section offset-header">
+        <div class="container">
+            <h2 class="title text-center">Why we need a Mesh Network?</h2>
+            <p>If you already read <a class="anchor-special" target="_blank" href="what-is-mesh.html">"What is Mesh?"</a> page, then you should be having a tiny idea about why we need a mesh network instead of the existing one. The internet in its current form too much centralized by entities like,
+                <ul>
+                    <li>Internet Service Provider (ISP) - who facilitate in connecting us to other parts of the globe through wired and wireless medium</li>
+                    <li>Network equipment manufacurers - who design and manufacture equipments like routers, switches, hubs, etc., with which we connect to the internet</li>
+                </ul>
+            </p>
+            <br/>
+            
+            <h2 class="title text-center">How ISP's make Internet centralized?</h2>
+            <p>It would be better to point out the facts rather than writing a long story about it. So, lets assume <b>Alice</b> wants to connect to the internet and decides to go with ISP say <b>InterConnect</b> and the process is as follows,
+                <ul>
+                    <li>Alice requests for an internet connection from InterConnect</li>
+                    <li>ISP checks the faesibility of Alice's location and decides whether to process the request or not</li>
+                    <li>If faesible, ISP asks Alice to select an Internet plan available</li>
+                    <li>Alice chooses the plan that is good and economical</li>
+                    <li>ISP then does the necessary setup at Alice's home which connects Alice's computer to the ISP through wired or wireless medium</li>
+                    <li>Alice now connects to the Internet to do her job</li>
+                </ul>
+            </p>
+            <br/>
+            
+            <h2 class="title text-center">What are the problems involved with the above approach?</h2>
+            <p>Though the process of getting an Internet connection seems to be simple, there are lot of difficulties that Alice would face throughout her entire time with the ISP,
+                <ul>
+                    <li>First of all, ISP's are single points of failure, that is, if they go down then the people connected to that ISP goes dark (during natural disaster or power outages)</li>
+                    <li>ISP's would not provide a connection if the place is too remote or if only less number of people require a connection</li>
+                    <li>ISP's throttle speed with something called as Fair Usage Policy (FUP) which is provide a higher speed upto a certain limit and throttle it down to a slower speed when the limit is reached. For example, one can browser at 10 Mbps upto 20GB and after its reached, the speed would be throttled to 512 Kbps</li>
+                    <li>ISP's monitor data going in and out of them based on their own agenda and the ones of their government</li>
+                    <li>ISP's can decide what sites you can browse at higher speeds and which ones at lower speed (Net Neutrality)</li>
+                    <li>ISP's can simply update their policy with little to no notice and we can't do anything about it</li>
+                </ul>
+            </p>
+            <br/>
+            
+            <h2 class="title text-center">What do Network equipment manufacturers have to do with this?</h2>
+            <p>If ISP's are the people whom we approach to connect to the Internet, these equipment manufactures are the people from whom we buy all our network equipment like routers, switches, etc. The problems that they put forth in achieving a truly distributed and resilient internet are as follows,
+                <ul>
+                    <li>Most Router manufacturers don't want users to mess with hardware and have mechanisms to prevent it</li>
+                    <li>Routers come with very weak antenna and low memory and ones that offer better are not economical</li>
+                    <li>Though there are Free/Open Source OS's for the router, either the router can't be flashed (vendor lockdown) or not compatible with the router</li>
+                    <li>Hardware hackers have to reverse engineer the device, to write drivers, OS or any software to unlock its potential</li>
+                </ul>
+            </p>
+            <br/>
+            
+            <h2 class="title text-center">How does Mesh Network help here?</h2>
+            <p>My using commodity routers one can flash the router with a suitable Free/Open Source OS and routing protocols can interconnect with each other and have a better Internet with the following benefits,
+                <ul>
+                    <li>Resilient to natural disasters</li>
+                    <li>Resilient to single point of failures</li>
+                    <li>Resilient to opressed governments and ones that spy on people</li>
+                    <li>Ability to reach remote places</li>
+                    <li>Resilient to Internet censorship</li>
+                    <li>End-to-End encrypted connections</li>
+                    <li>Utilize full bandwith of the network</li>
+                </ul>
+            </p>
+            <br/>
+            
         </div><!--//container-->
     </section><!--//why mesh-->
     

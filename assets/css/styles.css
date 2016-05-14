@@ -643,3 +643,15 @@ a.read-more-btn:hover{
 .about-modified a.read-more-btn{
     border:2px solid #17baef;
 }
+
+a.anchor-special{
+    text-decoration:none;
+}
+
+a.anchor-special:link,a.anchor-special:visited{
+    color:#074F66;
+}
+
+a.anchor-special:hover,a.anchor-special:active{
+    color:#17baef;
+}
